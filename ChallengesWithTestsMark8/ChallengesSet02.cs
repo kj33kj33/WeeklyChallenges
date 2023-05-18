@@ -18,18 +18,22 @@ namespace ChallengesWithTestsMark8
 
         public bool IsNumberEven(int number)
         {
-            if (number % 2 == 0)
-                return true;
-            else
-                return false;
+            //if (number % 2 == 0)
+            //    return true;
+            //else
+            //    return false;
+
+            return number % 2 == 0 ? true : false;
         }
 
         public bool IsNumberOdd(int num)
         {
-            if (num % 2 != 0)
-                return true;
-            else
-                return false;
+            //if (num % 2 != 0)
+            //    return true;
+            //else
+            //    return false;
+
+            return num % 2 != 0 ? true : false;
         }
 
         public double SumOfMinAndMax(IEnumerable<double> numbers)
@@ -109,11 +113,13 @@ namespace ChallengesWithTestsMark8
 
         public long CountOfPositiveOddsBelowNumber(long number)
         {
-            if(number > 0)
-            {
-                return number / 2;
-            }
-            return 0;
+            //if(number > 0)
+            //{
+            //    return number / 2;
+            //}
+            //return 0;
+
+            return number > 0 ? number / 2 : 0;
         }
     }
 }
