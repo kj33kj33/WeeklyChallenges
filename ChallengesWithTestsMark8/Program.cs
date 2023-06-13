@@ -8,9 +8,13 @@ namespace ChallengesWithTestsMark8
         {
             Console.WriteLine("Hello, world!");
 
-            var strings = new string[] { "Hello,", "my", "name", "is", "James" };
-            var thing = new ChallengesSet05();
-            thing.TurnWordsIntoSentence(strings);
+            var thing = new ChallengesSet06();
+
+            var test = new int[] { 1, 3, 2, 3, 3, 3, 3 };
+
+            var answer = thing.MaxConsecutiveCount(test);
+
+            Console.WriteLine(answer);
 
         }
     }
