@@ -1,1 +1,8 @@
-*.vs
+.vs/
+.vscode/
+**/bin/
+**/obj/
+TestResults/
+*.user
+*.suo
+.DS_Store
